@@ -8,17 +8,124 @@ p{
     padding: 12px;
 }
 
-.button
-{
-    background-color: pink;
-    padding: 2%;
-    border: 2px ridge palevioletred;
-}
 
+
+
+
+
+
+/*INDEX .HTML CSS*/
 .closing{
     font-size: smaller;
 }
+/*INDEX .HTML CSS*/
 
+
+
+
+
+
+
+/*ABOUT ME .HTML CSS*/
+.flex-containerpic
+{
+    display: flex;
+ }
+
+.picone
+{
+    flex: 1 1 auto;
+    background: ;
+    border: 2px inset palevioletred;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.pictwo
+{
+    flex: 1 1 auto;
+    background: ;
+    border: 2px inset palevioletred;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picthree
+{
+    flex: 1 1 auto;
+    background: ;
+    border: 2px inset palevioletred;
+    padding-top: auto;
+    padding-bottom: auto;
+    padding-right: auto;
+    padding-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container2
+{
+    display: flex;
+}
+
+.flex-container2 div
+{
+    flex: 1 1 0%;
+    flex-direction: column;
+    /*background: pink;*/
+    /*border: 1px solid black;*/
+    height: auto;
+    width: auto;
+}
+
+.school
+{
+    margin-top: 15%;
+}
+
+.skills
+{
+    margin-bottom: .5%;
+    background-color: pink;
+}
+
+.os
+{
+    flex: 1 1 auto;
+    background: ;
+    border: 0px inset palevioletred;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/*ABOUT ME .HTML CSS*/
+
+
+
+
+
+
+
+
+
+/*PORTFOLIO .HTML CSS*/
 .flex-container
 {
     display: flex;
@@ -47,59 +154,45 @@ p{
 {
     background: pink;
     border: 5px ridge palevioletred;
-    
 }
 
-
-.flex-container2
+.button
 {
-    display: flex;
+    background-color: pink;
+    padding: 2%;
+    border: 2px ridge palevioletred;
 }
-
-.flex-container2 div
-{
-    flex: 1 1 0%;
-    flex-direction: column;
-    /*background: pink;*/
-    /*border: 1px solid black;*/
-    height: auto;
-    width: auto;
-}
-
-.school
-{
-    margin-top: 15%;
-}
-
-.skills
-{
-    margin-bottom: .5%;
-}
-
-.os
-{
-    flex: 1 1 0%;
-    background: pink;
-    border: 2px inset palevioletred;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-right: 0px;
-    padding-left: 0px;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-left: 0px;
-    margin-right: 0px;
-
-}
-
-
-
 .responsive {
     max-width: 100%;
     height: auto;
     border: 5px ridge darkviolet;
     padding: 0px;
 }
+/*PORTFOLIO .HTML CSS*/
+
+
+
+
+
+
+/*CONTACT .HTML CSS */
+.contactbutton
+{
+    background-color: pink;
+    border: 2px ridge palevioletred;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*.embed-youtube {
