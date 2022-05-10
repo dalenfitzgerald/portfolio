@@ -1,0 +1,13 @@
+*{
+    text-align: center;
+    padding: 8px;
+}
+
+p{
+    text-align: center;
+    padding: 12px;
+}
+
+.closing{
+    font-size: smaller;
+}
