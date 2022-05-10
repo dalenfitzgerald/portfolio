@@ -11,3 +11,74 @@ p{
 .closing{
     font-size: smaller;
 }
+
+.flex-container
+{
+    display: flex;
+}
+
+.flex-container2
+{
+    display: flex;
+}
+
+.flex-container div
+{
+    flex: 1;
+    background: pink;
+    border: 2px /*solid*/ purple;
+    height: auto;
+    width: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-container2 div
+{
+    flex: 1;
+    /*background: pink;*/
+    border: 0px solid black;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.two
+{
+
+}
+
+/*.responsive {
+    width: 100%;
+    height: auto;
+  }
+*/
+
+.embed-youtube {
+    position: relative;
+    padding-bottom: 56.25%; /* - 16:9 aspect ratio (most common) */
+    /* padding-bottom: 62.5%; - 16:10 aspect ratio */
+    /* padding-bottom: 75%; - 4:3 aspect ratio */
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-youtube iframe,
+.embed-youtube object,
+.embed-youtube embed {
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
