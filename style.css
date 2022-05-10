@@ -31,7 +31,7 @@ p{
     width: auto;
     margin-bottom: auto;
     margin-left: auto;
-    margin-right: 15px;
+    margin-right: auto;
 }
 
 .one
@@ -57,7 +57,7 @@ p{
 
 .flex-container2 div
 {
-    flex: 1;
+    flex: 1 1 0%;
     /*background: pink;*/
     /*border: 1px solid black;*/
     height: auto;
@@ -71,16 +71,16 @@ p{
 
 .skills
 {
-    margin-bottom: 2%;
+    margin-bottom: .5%;
 }
 
 .os
 {
-    flex: .5 1 0%;
+    flex: 1 2 0%;
     background: pink;
     border: 2px inset palevioletred;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 0px;
+    padding-bottom: 0px;
     padding-right: 0px;
     padding-left: 0px;
     margin-top: auto;
