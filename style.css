@@ -27,6 +27,7 @@ p{
 .flex-container div
 {
     flex: 1;
+    flex-direction: column;
     height: auto;
     width: auto;
     margin-bottom: auto;
@@ -58,6 +59,7 @@ p{
 .flex-container2 div
 {
     flex: 1 1 0%;
+    flex-direction: column;
     /*background: pink;*/
     /*border: 1px solid black;*/
     height: auto;
@@ -76,7 +78,7 @@ p{
 
 .os
 {
-    flex: 1 2 0%;
+    flex: 1 1 0%;
     background: pink;
     border: 2px inset palevioletred;
     padding-top: 0px;
